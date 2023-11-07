@@ -1,0 +1,44 @@
+Panduan Pembuatan Aplikasi Website Dengan Laravel
+
+1. Instalasi
+composer create-project laravel/laravel example-app
+
+2. Buat Database
+
+3. Setting .env host dan database
+
+4. Membuat Models
+Model User pakai -> protected $guarded = [];
+Model Item pakai -> protected $guarded = [];
+
+5. Membuat Views
+Membuat layouts main, header, footer, css, script, dan sidebar
+Membuat index login
+
+6. Membuat Controllers
+LoginController
+
+7. Membuat Routes
+Membuat routes controller
+
+8. Membuat Migration
+Users, dll
+
+9. Membuat Seeders
+User login
+php artisan migrate:fresh --seed
+
+10. Clear route & cache
+php artisan route:clear
+php aritsan cache:clear
+
+=========================================
+
+Membuat Repository GitHub
+
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/userName/repoName.git
+git push --force origin master
